@@ -1,6 +1,7 @@
 package com.wanderersoftherift.botr.datagen;
 
 import com.wanderersoftherift.botr.BuildersOfTheRift;
+import com.wanderersoftherift.botr.init.BotrBlocks;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
@@ -24,6 +25,19 @@ public class BotrLanguageProvider extends LanguageProvider {
          * existence of the values as suppliers of the needed type. See
          * https://docs.neoforged.net/docs/1.21.1/resources/client/i18n/ for translation of other types.
          */
+
+        add(BotrBlocks.POI_3x3.get(), "3x3 PoI");
+        add(BotrBlocks.POI_5x5.get(), "5x5 PoI");
+        add(BotrBlocks.POI_7x7.get(), "7x7 PoI");
+        add(BotrBlocks.POI_9x9.get(), "9x9 PoI");
+        add(BotrBlocks.POI_11x11.get(), "11x11 PoI");
+        add(BotrBlocks.POI_PLACING.get(), "I'm Placing PoIs");
+        add(BotrBlocks.POI_HELP.get(), "Help with PoIs");
+        add(BotrBlocks.FEEDBACK.get(), "Seeking Feedback");
+        add(BotrBlocks.NOT_READY.get(), "Not Ready");
+        add(BotrBlocks.READY.get(), "Ready");
+
+        add("itemGroup." + BuildersOfTheRift.MODID, "Builders of the Rift");
 
     }
 
