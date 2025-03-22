@@ -16,19 +16,19 @@ import java.util.function.Supplier;
 public class BotrBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(BuildersOfTheRift.MODID);
 
-    public static final DeferredBlock<Block> POI_3x3 = registerBlock("poi_3x3", () -> new MessageBlock(
+    public static final DeferredBlock<Block> POI_3_X_3 = registerBlock("poi_3x3", () -> new MessageBlock(
             BlockBehaviour.Properties.of().setId(blockId("poi_3x3")).strength(0.8f).sound(SoundType.WOOL)));
 
-    public static final DeferredBlock<Block> POI_5x5 = registerBlock("poi_5x5", () -> new MessageBlock(
+    public static final DeferredBlock<Block> POI_5_X_5 = registerBlock("poi_5x5", () -> new MessageBlock(
             BlockBehaviour.Properties.of().setId(blockId("poi_5x5")).strength(0.8f).sound(SoundType.WOOL)));
 
-    public static final DeferredBlock<Block> POI_7x7 = registerBlock("poi_7x7", () -> new MessageBlock(
+    public static final DeferredBlock<Block> POI_7_X_7 = registerBlock("poi_7x7", () -> new MessageBlock(
             BlockBehaviour.Properties.of().setId(blockId("poi_7x7")).strength(0.8f).sound(SoundType.WOOL)));
 
-    public static final DeferredBlock<Block> POI_9x9 = registerBlock("poi_9x9", () -> new MessageBlock(
+    public static final DeferredBlock<Block> POI_9_X_9 = registerBlock("poi_9x9", () -> new MessageBlock(
             BlockBehaviour.Properties.of().setId(blockId("poi_9x9")).strength(0.8f).sound(SoundType.WOOL)));
 
-    public static final DeferredBlock<Block> POI_11x11 = registerBlock("poi_11x11", () -> new MessageBlock(
+    public static final DeferredBlock<Block> POI_11_X_11 = registerBlock("poi_11x11", () -> new MessageBlock(
             BlockBehaviour.Properties.of().setId(blockId("poi_11x11")).strength(0.8f).sound(SoundType.WOOL)));
 
     public static final DeferredBlock<Block> FEEDBACK = registerBlock("feedback", () -> new MessageBlock(

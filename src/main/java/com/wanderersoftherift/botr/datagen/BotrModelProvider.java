@@ -18,15 +18,15 @@ public class BotrModelProvider extends ModelProvider {
 
     @Override
     protected void registerModels(BlockModelGenerators blockModels, @NotNull ItemModelGenerators itemModels) {
-        blockModels.createHorizontallyRotatedBlock(BotrBlocks.POI_3x3.get(),
+        blockModels.createHorizontallyRotatedBlock(BotrBlocks.POI_3_X_3.get(),
                 singleTexturedOrientableOnlyTop(modLocation("block/poi_3x3")));
-        blockModels.createHorizontallyRotatedBlock(BotrBlocks.POI_5x5.get(),
+        blockModels.createHorizontallyRotatedBlock(BotrBlocks.POI_5_X_5.get(),
                 singleTexturedOrientableOnlyTop(modLocation("block/poi_5x5")));
-        blockModels.createHorizontallyRotatedBlock(BotrBlocks.POI_7x7.get(),
+        blockModels.createHorizontallyRotatedBlock(BotrBlocks.POI_7_X_7.get(),
                 singleTexturedOrientableOnlyTop(modLocation("block/poi_7x7")));
-        blockModels.createHorizontallyRotatedBlock(BotrBlocks.POI_9x9.get(),
+        blockModels.createHorizontallyRotatedBlock(BotrBlocks.POI_9_X_9.get(),
                 singleTexturedOrientableOnlyTop(modLocation("block/poi_9x9")));
-        blockModels.createHorizontallyRotatedBlock(BotrBlocks.POI_11x11.get(),
+        blockModels.createHorizontallyRotatedBlock(BotrBlocks.POI_11_X_11.get(),
                 singleTexturedOrientableOnlyTop(modLocation("block/poi_11x11")));
         blockModels.createHorizontallyRotatedBlock(BotrBlocks.POI_PLACING.get(),
                 singleTexturedOrientableOnlyTop(modLocation("block/poi_placing")));

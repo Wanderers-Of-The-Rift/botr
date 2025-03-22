@@ -26,11 +26,11 @@ public class BotrLanguageProvider extends LanguageProvider {
          * https://docs.neoforged.net/docs/1.21.1/resources/client/i18n/ for translation of other types.
          */
 
-        add(BotrBlocks.POI_3x3.get(), "3x3 PoI");
-        add(BotrBlocks.POI_5x5.get(), "5x5 PoI");
-        add(BotrBlocks.POI_7x7.get(), "7x7 PoI");
-        add(BotrBlocks.POI_9x9.get(), "9x9 PoI");
-        add(BotrBlocks.POI_11x11.get(), "11x11 PoI");
+        add(BotrBlocks.POI_3_X_3.get(), "3x3 PoI");
+        add(BotrBlocks.POI_5_X_5.get(), "5x5 PoI");
+        add(BotrBlocks.POI_7_X_7.get(), "7x7 PoI");
+        add(BotrBlocks.POI_9_X_9.get(), "9x9 PoI");
+        add(BotrBlocks.POI_11_X_11.get(), "11x11 PoI");
         add(BotrBlocks.POI_PLACING.get(), "I'm Placing PoIs");
         add(BotrBlocks.POI_HELP.get(), "Help with PoIs");
         add(BotrBlocks.FEEDBACK.get(), "Seeking Feedback");
